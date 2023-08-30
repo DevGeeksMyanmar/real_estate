@@ -1,4 +1,4 @@
-#drop database RealEstate;
+drop database RealEstate;
 create database RealEstate;
 use RealEstate;
 
@@ -61,21 +61,9 @@ create table estate (
     foreign key (information_id) references information(information_id)
 );
 
-#Create property table
+# Create transaction table
 create table property (
 	property_id int auto_increment primary key,
-    seller_id int,
-    buyer_id int,
-    estate_id int,
-    date timestamp,
-    foreign key (seller_id) references seller(seller_id),
-    foreign key (buyer_id) references buyer(buyer_id),
-    foreign key (estate_id) references estate(estate_id)
-);
-
-# Create transaction table
-create table transaction (
-	transaction_id int auto_increment primary key,
     buyer_id int,
     seller_id int,
     estate_id int,
