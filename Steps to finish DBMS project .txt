@@ -1,0 +1,10 @@
+Steps to finish DBMS project -> level : easy
+----------------------------
+
+1. schema >>
+2. ERD >>
+3. create table with attrs with datatypes >>
+4. insert data (generate with chatgpt) >>
+5. queries exercises
+6. custom exercises
+7. project template (word)
