@@ -56,6 +56,7 @@ create table estate (
     status boolean,
     information_id int,
     picture varchar(255) null,
+    date timestamp,
     foreign key (seller_id) references seller(seller_id),
 	foreign key (agent_id) references agent(agent_id),
     foreign key (information_id) references information(information_id)

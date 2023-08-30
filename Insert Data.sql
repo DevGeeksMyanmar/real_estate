@@ -32,7 +32,11 @@ VALUES
     (8, 'Horizon Heights Estates', 'info@horizonheightsestates.com', '111-222-3333', '555 Skyline Boulevard, Summit City'),
     (9, 'Riverside Haven Properties', 'sales@rNNGzdBrXymtBL9WHZTXsLZrhihHoq9C9H.com', '888-999-0000', '666 Riverfront Lane, Waterside'),
     (10, 'Meadowbrook Realty', 'info@meadowbrookrealty.com', '333-444-5555', '777 Meadowview Road, Meadowside'),
-    (11, 'Harmony Heights Homes', 'contact@harmonyheightshomes.com', '555-666-7777', '888 Harmony Street, Heightsville');
+    (11, 'Harmony Heights Homes', 'contact@harmonyheightshomes.com', '555-666-7777', '888 Harmony Street, Heightsville'),
+    (12,'Emily Thompson','emily@example.com','222-444-6666','111 Grove Street, Heightsville'),
+    (13, 'Benjamin Rodriguez', 'benjamin@example.com','111-222-4564','555 Pine Grove Road, Forestview'),
+    (14, 'Samuel Lee', 'smauellee@gmail.com', '222-555-7789', '444 Grove Road, Forestview'),
+    (15, 'Ava Davis', 'avadavis@gmailcom', '444-666-7777', '444 Pine Road, Meadowside');
     
 
 
@@ -66,19 +70,24 @@ INSERT INTO information (information_id, bed_room, pool, living_room, bath_room,
 
 #insert into estate table
 
-INSERT INTO estate (estate_id, price, address, description, city, district, seller_id, agent_id, status, information_id, picture,e_date) VALUES
+INSERT INTO estate (estate_id, price, address, description, city, district, seller_id, agent_id, status, information_id, picture,date) VALUES
 
-(1, 350000, '123 Main St', 'Cozy family home with modern amenities.', 'Cityville', 'Metropolis', 1, 3, false, 1, 'house1.jpg','2001-7-23 14:30:00'),
+(1, 350000, '123 Main St', 'Cozy family home with modern amenities.', 'Cityville', 'Metropolis', 1, 3, true, 1, 'house1.jpg','2001-7-23 14:30:00'),
 (2, 500000, '456 Elm Ave', 'Spacious home with a beautiful backyard.', 'Townsville', 'Suburbia', 2, 2, TRUE, 2, 'house2.jpg','2001-7-23 14:30:00'),
-(3, 250000, '789 Oak Rd', 'Charming cottage with lots of character.', 'Villageland', 'Countryside', 3, 1, false, 3, 'house3.jpg','2002-4-23 14:30:00'),
+(3, 250000, '789 Oak Rd', 'Charming cottage with lots of character.', 'Villageland', 'Countryside', 3, 1, true, 3, 'house3.jpg','2002-4-23 14:30:00'),
 (4, 800000, '101 Pine Lane', 'Luxurious mansion with stunning views.', 'Bethlehem', 'Hills', 4, 4, TRUE, 4, 'house4.jpg','2003-1-23 14:30:00'),
-(5, 400000, '222 Cedar St', 'Modern condo in a bustling neighborhood.', 'Countryside', 'Downtown', 5, 5, false, 5, 'condo1.jpg','2000-7-23 14:30:00'),
+(5, 400000, '222 Cedar St', 'Modern condo in a bustling neighborhood.', 'Countryside', 'Downtown', 5, 5, true, 5, 'condo1.jpg','2000-7-23 14:30:00'),
 (6, 600000, '333 Birch Ave', 'Elegant villa with a private pool.', 'Riverside', 'Rivertown', 6, 5, TRUE, 6, 'villa1.jpg','2003-12-23 14:30:00'),
-(7, 180000, '444 Maple Rd', 'Cozy apartment in a quiet area.', 'Bethlehem', 'Hills', 7, 3, false, 7, 'apartment1.jpg','2002-7-13 14:30:00'),
+(7, 180000, '444 Maple Rd', 'Cozy apartment in a quiet area.', 'Bethlehem', 'Hills', 7, 3, true, 7, 'apartment1.jpg','2002-7-13 14:30:00'),
 (8, 700000, '555 Oak St', 'Stylish penthouse with panoramic views.', 'Lakeside', 'City', 8, 2, TRUE, 8, 'penthouse1.jpg','2002-6-23 14:30:00'),
-(9, 320000, '666 Pine Ave', 'Quaint cottage surrounded by nature.', 'Seaview', 'Coast', 9, 1, false, 9, 'cottage1.jpg','2001-7-21 14:30:00'),
+(9, 320000, '666 Pine Ave', 'Quaint cottage surrounded by nature.', 'Seaview', 'Coast', 9, 1, true, 9, 'cottage1.jpg','2001-7-21 14:30:00'),
 (10, 450000, '777 Elm Rd', 'Contemporary townhouse with rooftop terrace.', 'Hillside', 'Urban', 10, 2, TRUE, 10, 'townhouse1.jpg','2003-1-3 14:30:00'),
-(11, 230000, 'Taw Win St', 'Contemporary townhouse with rooftop terrace.', 'Bethlehem', 'Parkland', 7, 3, TRUE,11 , 'newhouse.jpg','2003-3-23 14:30:00');
+(11, 200000, 'Taw Win St', 'Contemporary townhouse with lots of character.', 'Bethlehem', 'Parkland', 11, 3, TRUE,11 , 'newhouse.jpg','2003-3-23 14:30:00'),
+(12, 330000, 'Taw Min St', 'Contemporary townhouse with beautiful terrace.', 'London', 'Parkland', 12, 3, FALSE,11 , 'newhouse1.jpg','2003-5-23 14:30:00'),
+(13, 430000, 'Taw Oak St', 'Modern townhouse with stunning views.', 'Bethlehem', 'Countryside', 13, 3, false,11 , 'newhouse2.jpg','2003-4-23 14:30:00'),
+(14, 530000, '111 Main St', 'Cozy townhouse with bustling neighborhood.', 'Bethlehem', 'Rivertown', 14, 3, false,11 , 'newhouse3.jpg','2003-1-23 14:30:00'),
+(15, 600000, '222 Pine St', 'Spacious house with rooftop terrace.', 'Rome', 'Parkland', 15, 3, false,11 , 'newhome.jpg','2003-7-23 14:30:00');
+
 
 
 
