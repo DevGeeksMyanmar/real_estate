@@ -24,4 +24,4 @@ select price,seller_id,agent_id,date from estate where status = false;
 #no. 7
 
 INSERT INTO agent (agent_name, agent_email, agent_contact, agent_address) VALUES 
-('Mr. Pyae', 'pyaepyae@gmail.com', '123-456-9690', '123 Alinkar St, UCSY');
+('Lily Smith', 'lilysmith@gmail.com', '123-456-9690', '123 Alinkar St, UCSY');
