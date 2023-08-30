@@ -66,21 +66,19 @@ INSERT INTO information (information_id, bed_room, pool, living_room, bath_room,
 
 #insert into estate table
 
-INSERT INTO estate (estate_id, price, address, description, city, district, seller_id, agent_id, status, information_id, picture) VALUES
+INSERT INTO estate (estate_id, price, address, description, city, district, seller_id, agent_id, status, information_id, picture,e_date) VALUES
 
-(1, 350000, '123 Main St', 'Cozy family home with modern amenities.', 'Cityville', 'Metropolis', 1, 3, false, 1, 'house1.jpg'),
-(2, 500000, '456 Elm Ave', 'Spacious home with a beautiful backyard.', 'Townsville', 'Suburbia', 2, 2, TRUE, 2, 'house2.jpg'),
-(3, 250000, '789 Oak Rd', 'Charming cottage with lots of character.', 'Villageland', 'Countryside', 3, 1, false, 3, 'house3.jpg'),
-(4, 800000, '101 Pine Lane', 'Luxurious mansion with stunning views.', 'Bethlehem', 'Hills', 4, 4, TRUE, 4, 'house4.jpg'),
-(5, 400000, '222 Cedar St', 'Modern condo in a bustling neighborhood.', 'Countryside', 'Downtown', 5, 5, false, 5, 'condo1.jpg'),
-(6, 600000, '333 Birch Ave', 'Elegant villa with a private pool.', 'Riverside', 'Rivertown', 6, 5, TRUE, 6, 'villa1.jpg'),
-(7, 180000, '444 Maple Rd', 'Cozy apartment in a quiet area.', 'Bethlehem', 'Hills', 7, 3, false, 7, 'apartment1.jpg'),
-(8, 700000, '555 Oak St', 'Stylish penthouse with panoramic views.', 'Lakeside', 'City', 8, 2, TRUE, 8, 'penthouse1.jpg'),
-(9, 320000, '666 Pine Ave', 'Quaint cottage surrounded by nature.', 'Seaview', 'Coast', 9, 1, false, 9, 'cottage1.jpg'),
-(10, 450000, '777 Elm Rd', 'Contemporary townhouse with rooftop terrace.', 'Hillside', 'Urban', 10, 2, TRUE, 10, 'townhouse1.jpg'),
-(11, 230000, 'Taw Win St', 'Contemporary townhouse with rooftop terrace.', 'Bethlehem', 'Parkland', 7, 3, TRUE,11 , 'newhouse.jpg');
-
-
+(1, 350000, '123 Main St', 'Cozy family home with modern amenities.', 'Cityville', 'Metropolis', 1, 3, false, 1, 'house1.jpg','2001-7-23 14:30:00'),
+(2, 500000, '456 Elm Ave', 'Spacious home with a beautiful backyard.', 'Townsville', 'Suburbia', 2, 2, TRUE, 2, 'house2.jpg','2001-7-23 14:30:00'),
+(3, 250000, '789 Oak Rd', 'Charming cottage with lots of character.', 'Villageland', 'Countryside', 3, 1, false, 3, 'house3.jpg','2002-4-23 14:30:00'),
+(4, 800000, '101 Pine Lane', 'Luxurious mansion with stunning views.', 'Bethlehem', 'Hills', 4, 4, TRUE, 4, 'house4.jpg','2003-1-23 14:30:00'),
+(5, 400000, '222 Cedar St', 'Modern condo in a bustling neighborhood.', 'Countryside', 'Downtown', 5, 5, false, 5, 'condo1.jpg','2000-7-23 14:30:00'),
+(6, 600000, '333 Birch Ave', 'Elegant villa with a private pool.', 'Riverside', 'Rivertown', 6, 5, TRUE, 6, 'villa1.jpg','2003-12-23 14:30:00'),
+(7, 180000, '444 Maple Rd', 'Cozy apartment in a quiet area.', 'Bethlehem', 'Hills', 7, 3, false, 7, 'apartment1.jpg','2002-7-13 14:30:00'),
+(8, 700000, '555 Oak St', 'Stylish penthouse with panoramic views.', 'Lakeside', 'City', 8, 2, TRUE, 8, 'penthouse1.jpg','2002-6-23 14:30:00'),
+(9, 320000, '666 Pine Ave', 'Quaint cottage surrounded by nature.', 'Seaview', 'Coast', 9, 1, false, 9, 'cottage1.jpg','2001-7-21 14:30:00'),
+(10, 450000, '777 Elm Rd', 'Contemporary townhouse with rooftop terrace.', 'Hillside', 'Urban', 10, 2, TRUE, 10, 'townhouse1.jpg','2003-1-3 14:30:00'),
+(11, 230000, 'Taw Win St', 'Contemporary townhouse with rooftop terrace.', 'Bethlehem', 'Parkland', 7, 3, TRUE,11 , 'newhouse.jpg','2003-3-23 14:30:00');
 
 
 

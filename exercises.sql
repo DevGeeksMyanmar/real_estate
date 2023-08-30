@@ -8,4 +8,5 @@ select address from estate where status = 1 and city = "Bethlehem" and price bet
  select agent_name from agent where agent_id = (select max(agent_id) from property where year(date) = 2004);
  
  #no. 4
- 
+select agent.agent_id,avg(price) from estate inner join agent on agent.agent_id =  estate.agent_id inner join property on property.estate_id = estate.estate_id
+where year(property.date) = 2004 group by (agent.agent_id);
